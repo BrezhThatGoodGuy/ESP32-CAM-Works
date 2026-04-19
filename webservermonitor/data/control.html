@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+
+<head>
+
+    <title>Man-Trap Control</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src ="script.js" ></script> 
+
+</head>
+
+
+
+
+<body class = "simulation-background">
+
+
+
+    <div class = "whole-header">
+        
+        
+        <div class = "main-navigation-bar">
+
+            <div class = "monitor-page-link" class = "simulate-page-link-selected" onclick="openMonitorPage()">MONITOR</div>                          
+            <div class = "command-page-link" class = "simulate-page-link-selected" onclick="openControlPage()">CONTROL</div>
+            <div class = "faults-page-link" class = "simulate-page-link-selected" onclick="openFaultsPage()">FAULTS</div>
+            <div class = "ai-page-link" class = "simulate-page-link-selected" onclick="openAiControlPage()">AI CONTROL</div> 
+            
+        </div>
+        
+        
+        <div class = "user-header">
+            
+            <button class = "evacuate"> EVACUATE! </button>
+            <div class = js-navigation-menu ><img class="navigation-menu" onclick="showSideNavigationBar()" src="images/navigation-menu.png" alt="nav logo"></div>
+            <div class = "user-pic"> <div class ="user-name">B</div> </div>
+
+        </div>
+                
+    </div> 
+   
+    
+    <div class ="js-side-navigation-bar">
+        <div class = "hidden-side-navigation-bar">
+        </div>
+
+
+    </div>
